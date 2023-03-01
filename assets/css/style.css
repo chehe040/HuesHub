@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* The Universal Selector is the * in CSS.he * means "all elements" (a universal selector), so we are setting all elements to have zero margins, and zero padding, thus making them look the same in all browsers. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.2s ease-in;
+}
+
+body {
+  font-family: "monospace", sans-serif;
+
+  background-image: url("assets/images/white-blank-background-texture-design-element.jpeg");
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+}
+
+
+nav {
+  background: white;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0.2rem 2.5rem;
+  box-shadow: 2px 3px 2px #f1f1f1;
+  /* make the nav bar stick to the top */
+  position: sticky;
+  top: 0;
+  left: 0;
+  /* left: 0; */
+  z-index: 1;
+}
+
+.hamburger {
+  display: none;
+}
+
+.logo {
+  font-size: 2rem;
+  /* font-weight: normal; */
+  margin-right: auto;
+}
+
+.hues{
+  font-weight: normal;
+}
+
+ul {
+  /* display: flex; now is when thw menu items will spread from left to right */
+  display: flex;
+  margin-left: auto;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+/* .nav-item-right{
+  float: right;
+} */
+.nav-link {
+  font-weight: 400;
+}
+
+
+.greenBox{
+  /* background: #A8D741; */
+  /* background-image: url("/Users/maheshsoni/Desktop/Random Gradient/assets/images/grad1.jpg"); */
+  padding: 10px;
+  border-radius: 30px;
+  height: 600px;
+  margin: 0rem 2.5rem 2.5rem 2.5rem;
+  z-index: 1;
+  dispaly: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.first{
+  width: 5rem;
+  height: 2.8rem;
+  float:left;
+  margin-top:10px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  border: none;
+
+}
+.second{
+  width: 5rem;
+  height: 2.8rem;
+  left: 1;
+  float:left;
+  margin-top:10px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  border: none;
+}
+
+.gradient{
+  width: 50rem;
+  height: 22rem;
+  margin: 60px auto auto auto;
+  border-radius: 15px;
+  border-style: dashed;
+  border-width: thin;
+  border-color: #282424;
+  max-width: 100%
+
+}
+.colors{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-flow: row;
+  gap: 3.9rem;
+}
+
+.containerOne{
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerTwo{
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerThree{
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+button{
+  background-color: white;
+  font-size: 18px;
+  font-weight: bold;
+  color: #282424;
+  border-radius: 20px;
+  border-color: #282424;
+  border-style: solid;
+  border-width: 2.5px;
+  padding: 9px 30px 9px;
+  transition-duration: 0.4s ease-in;
+}
+
+button:hover{
+  background-color: #282424 !important;
+  color: white !important;
+  border-color: white;
+  border-width: 2.5px;
+  box-shadow: 0 27px 30px -20px #000000 !important;
+  transform: scale(1.1);
+}
+
+#outputCode{
+  font-size: 17px;
+  margin: 17px;
+  cursor: pointer;
+}
+
+#codeOne{
+  font-size: 20px;
+  margin: 10px;
+}
+
+#codeTwo{
+  font-size: 20px;
+  margin: 10px;
+}
+
+#btnThree{
+  margin-bottom: 50px;
+}
+
+/* .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+} */
+
+
+/* @media only screen and (max-width: 768px)
+{
+  .nav-menu{
+    position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+  .nav-menu.active {
+        left: 0;
+    }
+
+  .nav-item {
+        margin: 2.5rem 0;
+    }
+
+  .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+} */
+
+
+@media only screen and (max-width: 768px)
+{
+  .hues{
+    font-size: 80%;
+
+}
+}
+
+.copy{
+  font-size: 11px;
+  padding: 6px 12px 6px 12px;
+  border-radius: 6px;
+  border-color: #a8a9a7;
+
+}
+
+
+
+.cssCode{
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup{
+  position: absolute;
+  top: -160px;
+  left: 50%;
+  background-color: #282424;
+  color: white;
+  opacity: 0;
+  padding: 10px;
+  border-radius: 5px;
+  transform: translate(-50%, -20px);
+  pointer-events: none;
+}
+
+.popup.active{
+  animation: popup 1s ease-in-out forwards;
+
+}
+
+@keyframes popup{
+  0%{
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -20px);
+  }
+  40%{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, 0px);
+  }
+  80%{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, 0px);
+  }
+  100%{
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -20px);
+  }
+}
+
+header {
+  margin-top:  20px;
+}
+
+.site-logo{
+  width: 80%;
+ height: 20%;
+ padding: 0px;
+ margin: 0px;
+  /* max-width: 100px; */
+}
+.logo_web{
+  padding: 0px;
+  margin-top: 0px;
+  max-width: 250px;
+}

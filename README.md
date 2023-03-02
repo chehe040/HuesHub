@@ -1,6 +1,6 @@
 # Hues Hub
 
-The Random Gradient Generator is a website that generates a random gradient using two colors. The website allows you to easily generate a new gradient by clicking on the "Random" button, which will display two colors in the div containers, along with their corresponding hex codes. The CSS code for the gradient is also displayed, making it easy to copy and paste into your own projects.
+The Random Gradient Generator is a website that generates a random gradient using two colors. The website allows you to easily generate a new gradient by clicking on the "Random" button, which will display two colors in seperate containers, along with their corresponding hex codes. The CSS code for the gradient is also displayed, with a copy button to paste into your own projects.
 
 ## How to Use
 

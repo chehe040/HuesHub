@@ -6,7 +6,6 @@ ul {
   margin: 0;
 }
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -16,7 +15,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: 0.2s ease-in;
+  /* transition: 0.2s ease-in; */
 }
 
 body {
@@ -27,9 +26,7 @@ body {
   background-size: cover;
 
   background-repeat: no-repeat;
-
 }
-
 
 nav {
   background: white;
@@ -57,7 +54,7 @@ nav {
   margin-right: auto;
 }
 
-.hues{
+.hues {
   font-weight: normal;
 }
 
@@ -80,8 +77,7 @@ ul {
   font-weight: 400;
 }
 
-
-.greenBox{
+.greenBox {
   /* background: #A8D741; */
   /* background-image: url("/Users/maheshsoni/Desktop/Random Gradient/assets/images/grad1.jpg"); */
   padding: 10px;
@@ -95,31 +91,29 @@ ul {
   align-items: center;
 }
 
-
-.first{
+.first {
   width: 5rem;
   height: 2.8rem;
-  float:left;
-  margin-top:10px;
+  float: left;
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
   outline: none;
   border: none;
-
 }
-.second{
+.second {
   width: 5rem;
   height: 2.8rem;
   left: 1;
-  float:left;
-  margin-top:10px;
+  float: left;
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
   outline: none;
   border: none;
 }
 
-.gradient{
+.gradient {
   width: 50rem;
   height: 22rem;
   margin: 60px auto auto auto;
@@ -127,10 +121,9 @@ ul {
   border-style: dashed;
   border-width: thin;
   border-color: #282424;
-  max-width: 100%
-
+  max-width: 100%;
 }
-.colors{
+.colors {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,7 +132,7 @@ ul {
   gap: 3.9rem;
 }
 
-.containerOne{
+.containerOne {
   display: flex;
   flex-direction: column;
   flex-flow: column;
@@ -147,7 +140,7 @@ ul {
   justify-content: center;
 }
 
-.containerTwo{
+.containerTwo {
   display: flex;
   flex-direction: column;
   flex-flow: column;
@@ -155,7 +148,7 @@ ul {
   justify-content: center;
 }
 
-.containerThree{
+.containerThree {
   display: flex;
   flex-direction: column;
   flex-flow: column;
@@ -164,7 +157,11 @@ ul {
   position: relative;
 }
 
-button{
+i {
+  padding: 0px 7px 0px 0px;
+}
+
+button {
   background-color: white;
   font-size: 18px;
   font-weight: bold;
@@ -175,9 +172,10 @@ button{
   border-width: 2.5px;
   padding: 9px 30px 9px;
   transition-duration: 0.4s ease-in;
+  cursor: pointer;
 }
 
-button:hover{
+button:active {
   background-color: #282424 !important;
   color: white !important;
   border-color: white;
@@ -186,23 +184,22 @@ button:hover{
   transform: scale(1.1);
 }
 
-#outputCode{
+#outputCode {
   font-size: 17px;
   margin: 17px;
-  cursor: pointer;
 }
 
-#codeOne{
+#codeOne {
   font-size: 20px;
   margin: 10px;
 }
 
-#codeTwo{
+#codeTwo {
   font-size: 20px;
   margin: 10px;
 }
 
-#btnThree{
+#btnThree {
   margin-bottom: 50px;
 }
 
@@ -215,7 +212,6 @@ button:hover{
     transition: all 0.3s ease-in-out;
     background-color: #101010;
 } */
-
 
 /* @media only screen and (max-width: 768px)
 {
@@ -257,26 +253,20 @@ button:hover{
     }
 } */
 
-
-@media only screen and (max-width: 768px)
-{
-  .hues{
+@media only screen and (max-width: 768px) {
+  .hues {
     font-size: 80%;
-
+  }
 }
-}
 
-.copy{
+.copy {
   font-size: 11px;
   padding: 6px 12px 6px 12px;
   border-radius: 6px;
   border-color: #a8a9a7;
-
 }
 
-
-
-.cssCode{
+.cssCode {
   display: flex;
   flex-direction: row;
   flex-flow: row;
@@ -284,7 +274,7 @@ button:hover{
   justify-content: center;
 }
 
-.popup{
+.popup {
   position: absolute;
   top: -160px;
   left: 50%;
@@ -297,28 +287,27 @@ button:hover{
   pointer-events: none;
 }
 
-.popup.active{
+.popup.active {
   animation: popup 1s ease-in-out forwards;
-
 }
 
-@keyframes popup{
-  0%{
+@keyframes popup {
+  0% {
     opacity: 0;
     pointer-events: none;
     transform: translate(-50%, -20px);
   }
-  40%{
+  40% {
     opacity: 1;
     pointer-events: auto;
     transform: translate(-50%, 0px);
   }
-  80%{
+  80% {
     opacity: 1;
     pointer-events: auto;
     transform: translate(-50%, 0px);
   }
-  100%{
+  100% {
     opacity: 0;
     pointer-events: none;
     transform: translate(-50%, -20px);
@@ -326,17 +315,17 @@ button:hover{
 }
 
 header {
-  margin-top:  20px;
+  margin-top: 20px;
 }
 
-.site-logo{
+.site-logo {
   width: 80%;
- height: 20%;
- padding: 0px;
- margin: 0px;
+  height: 20%;
+  padding: 0px;
+  margin: 0px;
   /* max-width: 100px; */
 }
-.logo_web{
+.logo_web {
   padding: 0px;
   margin-top: 0px;
   max-width: 250px;

@@ -1,12 +1,12 @@
 # Hues Hub
 
+## [Live Link](https://chehe040.github.io/HuesHub/)
+
 The Random Gradient Generator is a website that generates a random gradient using two colors. The website allows you to easily generate a new gradient by clicking on the "Random" button, which will display two colors in seperate containers, along with their corresponding hex codes. The CSS code for the gradient is also displayed, with a copy button to paste into your own projects.
 
 ## How to Use
 
 To generate a random gradient, simply click on the "Random" button. You can also choose your own colors by clicking on the color picker in each container. Once you have chosen your colors, the CSS code for the gradient will be displayed, and you can copy and paste it into your own project.
-
-## [Live Link](https://chehe040.github.io/HuesHub/)
 
 ## Features
 

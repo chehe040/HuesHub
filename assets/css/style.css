@@ -175,7 +175,7 @@ button {
   cursor: pointer;
 }
 
-button:active {
+button:hover {
   background-color: #282424 !important;
   color: white !important;
   border-color: white;

@@ -6,6 +6,8 @@ The Random Gradient Generator is a website that generates a random gradient usin
 
 To generate a random gradient, simply click on the "Random" button. You can also choose your own colors by clicking on the color picker in each container. Once you have chosen your colors, the CSS code for the gradient will be displayed, and you can copy and paste it into your own project.
 
+## [Live Link](https://chehe040.github.io/HuesHub/)
+
 ## Features
 
 - Randomly generates a gradient using two colors

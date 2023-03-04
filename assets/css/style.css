@@ -95,7 +95,7 @@ ul {
   width: 5rem;
   height: 2.8rem;
   float: left;
-  margin-top: 10px;
+  margin-top: 4px;
   margin-left: auto;
   margin-right: auto;
   outline: none;
@@ -106,7 +106,7 @@ ul {
   height: 2.8rem;
   left: 1;
   float: left;
-  margin-top: 10px;
+  margin-top: 4px;
   margin-left: auto;
   margin-right: auto;
   outline: none;
@@ -116,7 +116,7 @@ ul {
 .gradient {
   width: 50rem;
   height: 22rem;
-  margin: 60px auto auto auto;
+  margin: 30px auto auto auto;
   border-radius: 15px;
   border-style: dashed;
   border-width: thin;
@@ -182,6 +182,7 @@ button:hover {
   border-width: 2.5px;
   box-shadow: 0 27px 30px -20px #000000 !important;
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 #outputCode {
